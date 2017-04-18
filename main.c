@@ -6,3 +6,8 @@ int main(void)
 	printf("%d", x);
 	return 0;
 }
+
+void testFun(void)
+{
+	
+}
