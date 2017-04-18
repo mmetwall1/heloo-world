@@ -6,6 +6,7 @@ int main(void)
 	printf("%d", x);
 	printf("%d", y);
 	printf("%d", z);
+	printf("hello world");
 	return 0;
 }
 
@@ -33,3 +34,4 @@ void Fun4(void)
 {
 	return 0;
 }
+
