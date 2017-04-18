@@ -4,6 +4,8 @@ int main(void)
 	int y;
 	int z;
 	printf("%d", x);
+	printf("%d", y);
+	printf("%d", z);
 	return 0;
 }
 
