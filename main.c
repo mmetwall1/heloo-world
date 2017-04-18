@@ -16,3 +16,8 @@ void Fun1(void)
 {
 	return 0;
 }
+
+void Fun1(void)
+{
+	return 0;
+}
