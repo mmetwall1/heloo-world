@@ -28,3 +28,8 @@ void Fun3(void)
 {
 	return 0;
 }
+
+void Fun4(void)
+{
+	return 0;
+}
