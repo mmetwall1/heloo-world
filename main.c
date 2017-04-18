@@ -9,5 +9,5 @@ int main(void)
 
 void testFun(void)
 {
-	
+	return 0;
 }
