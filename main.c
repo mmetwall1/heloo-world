@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define DEBUG	ON
+
 int main(void)
 {
 	int x, y, z;
@@ -8,50 +10,5 @@ int main(void)
 #if DEBUG == ON
 	printf("%d, %d, %d", x, y, z);
 #endif
-	return 0;
-}
-
-void testFun(void)
-{
-	return 0;
-}
-
-void Fun1(void)
-{
-#if METER_TYPE == TI_METERING
-	printf("hello world");
-#endif	
-	return 0;
-}
-
-void Fun2(void)
-{
-#if METER_TYPE == TI_METERING
-	printf("hello world");
-#endif		
-	return 0;
-}
-
-void Fun3(void)
-{
-#if METER_TYPE == TI_METERING
-	printf("hello world");
-#endif		
-	return 0;
-}
-
-void Fun4(void)
-{
-#if METER_TYPE == TI_METERING
-	printf("hello world");
-#endif		
-	return 0;
-}
-
-void Fun5(void)
-{
-#if METER_TYPE == TI_METERING
-	printf("hello world");
-#endif		
 	return 0;
 }
