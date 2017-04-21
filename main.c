@@ -12,3 +12,8 @@ int main(void)
 #endif
 	return 0;
 }
+
+void APPM_Init(void)
+{
+	
+}
