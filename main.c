@@ -13,30 +13,45 @@ int main(void)
 
 void testFun(void)
 {
-	return;
+	return 0;
 }
 
 void Fun1(void)
 {
-	return;
+#if METER_TYPE == TI_METERING
+	printf("hello world");
+#endif	
+	return 0;
 }
 
 void Fun2(void)
 {
-	return;
+#if METER_TYPE == TI_METERING
+	printf("hello world");
+#endif		
+	return 0;
 }
 
 void Fun3(void)
 {
-	return;
+#if METER_TYPE == TI_METERING
+	printf("hello world");
+#endif		
+	return 0;
 }
 
 void Fun4(void)
 {
-	return;
+#if METER_TYPE == TI_METERING
+	printf("hello world");
+#endif		
+	return 0;
 }
 
 void Fun5(void)
 {
-	return;
+#if METER_TYPE == TI_METERING
+	printf("hello world");
+#endif		
+	return 0;
 }
