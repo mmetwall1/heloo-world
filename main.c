@@ -15,6 +15,6 @@ int main(void)
 
 void APPM_Init(void)
 {
-	int temp;
+	int temp=0;
 	return;
 }
